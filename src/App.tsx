@@ -1,5 +1,5 @@
 import styles from './App.module.css'
-import { Task } from './components/Input/Task'
+import { Tasks } from './components/Tasks'
 
 import './global.css'
 
@@ -12,7 +12,7 @@ function App() {
 
             <div className={styles.wrapper}>
                 <main>
-                    <Task />
+                    <Tasks />
                 </main>
             </div>
         </div>

@@ -1,0 +1,51 @@
+.createTask {
+    display: flex;
+    gap: 8px;
+    margin-top: -2rem;
+}
+
+.createTask > input {
+    flex: 1;
+    padding: 1rem;
+
+    border-radius: 8px;
+    border: 1.5px solid var(--gray-700);
+
+    background-color: var(--gray-500);
+    color: var(--gray-100);
+}
+
+.createTask > input::placeholder {
+    color: var(--gray-300);
+}
+.createTask > input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--purple-dark);
+}
+
+.createTask > button {
+    padding: 1rem;
+    border-radius: 8px;
+    border: 0;
+    outline: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    color: var(--gray-100);
+    background-color: var(--blue-dark);
+
+    font-weight: bold;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+.createTask > button:hover {
+    background-color: var(--blue);
+}
+
+.createTask > button:focus {
+    background-color: var(--blue);
+}

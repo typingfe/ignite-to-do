@@ -1,0 +1,73 @@
+.task {
+    background-color: var(--gray-500);
+    border-radius: 8px;
+    border: 1px solid var(--gray-400);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem;
+}
+
+.task > button {
+    background: transparent;
+    border: 0;
+    line-height: 0;
+
+    color: var(--gray-300);
+    cursor: pointer;
+
+    padding: 6px;
+
+    transition: background-color 0.4s, color 0.4s;
+}
+
+.task > button:hover {
+    background-color: var(--gray-400);
+    border-radius: 4px;
+
+    color: var(--danger);
+}
+
+.taskInfo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.circleButton {
+    background: transparent;
+    border: 0;
+    line-height: 0;
+
+    color: var(--blue);
+    cursor: pointer;
+
+    transition: 0.2s all;
+}
+
+.circleButton:hover {
+    color: var(--blue-dark);
+}
+
+.circleButtonChecked {
+    color: var(--purple-dark);
+}
+
+.circleButtonChecked:hover {
+    color: var(--purple);
+}
+
+.taskParagraph {
+    color: var(--gray-100);
+    font-size: 0.875rem;
+    line-height: 1.4;
+
+    transition: 0.2s all;
+}
+
+.paragraphChecked {
+    color: var(--gray-300);
+    text-decoration: line-through;
+}
