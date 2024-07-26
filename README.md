@@ -1,6 +1,6 @@
 # To-Do
 
-<img src="/public/image.png" alt="To-Do project">
+<img src="/src/assets/image.png" alt="To-Do project">
 
 > a To-Do List using LocalStorage
 

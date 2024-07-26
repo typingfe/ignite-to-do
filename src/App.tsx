@@ -7,7 +7,7 @@ function App() {
     return (
         <div>
             <header className={styles.header}>
-                <img src="/public/logo-todo.svg" alt="To-Do logo" />
+                <img src="/src/assets/logo-todo.svg" alt="To-Do logo" />
             </header>
 
             <div className={styles.wrapper}>
